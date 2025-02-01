@@ -1,6 +1,6 @@
 import random
 
-def PickRandomNumber():
+def PriceisRight():
     IntToGuess = random.randint(1,100)
     while True : 
         try:
@@ -17,7 +17,7 @@ def PickRandomNumber():
             print("Invalid Number")
 
 
-PickRandomNumber()
+PriceisRight()
         
 
 
