@@ -23,10 +23,6 @@ def PriceisRight():
         except ValueError:
             print("Invalid Number")
     print("Too many attemps!Game Over")
-    
-
-
-
 
 PriceisRight()
         
